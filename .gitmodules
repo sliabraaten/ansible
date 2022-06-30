@@ -1,3 +1,6 @@
 [submodule "ansible/k3s-deployment/k3s-ansible"]
 	path = ansible/k3s-deployment/k3s-ansible
 	url = https://github.com/techno-tim/k3s-ansible
+[submodule "ansible/ansible/k3s-deployment/k3s-ansible"]
+	path = ansible/ansible/k3s-deployment/k3s-ansible
+	url = https://github.com/sliabraaten/k3s-ansible
