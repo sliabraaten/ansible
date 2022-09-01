@@ -1,5 +1,4 @@
 -name: reboot_standard
-  gather_facts: no
  remote_user: user
  become: true
  
