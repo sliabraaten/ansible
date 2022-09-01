@@ -1,6 +1,5 @@
 -name: reboot_standard
- hosts: kubecluster
- gather_facts: no
+  gather_facts: no
  remote_user: user
  become: true
  
