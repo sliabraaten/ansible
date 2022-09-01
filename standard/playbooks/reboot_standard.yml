@@ -1,9 +1,11 @@
--name: reboot_standard
-
- become: true
+---
+- name: Reboot Standard
+  hosts: "*"
+  gather_facts: no
+  remote_user: user
+  become: true
  
- tasks:
-    - name: Reboot Machine Wait 300s
+  tasks:
+    - name: Reboot the machine (Wait 300 sec)
       reboot:
         reboot_timeout: 300
-
